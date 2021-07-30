@@ -1,15 +1,39 @@
+#clockContainer{  
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(image/clock.png) no-repeat;
+    background-size: 100%;
+}
 body{
-    padding-top: 50px;
-    text-align: center;
-    background-color:#fcaebf;
-    font-family: serif;
-    color: rgb(211, 45, 16);
-    font-family: 'Lobster', cursive;
+    background: rgb(235, 160, 185);
 }
-.container{
-    padding-top: 100px;
-    text-align: center;
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
 }
-footer{
-    padding-top: 100px;
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
 }
